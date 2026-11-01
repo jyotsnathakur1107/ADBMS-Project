@@ -1,0 +1,24 @@
+{
+  "name": "course-registration-system",
+  "version": "1.0.0",
+  "description": "Production-grade Course Registration and Academic Management System (ADBMS Project)",
+  "scripts": {
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "client:preview": "cd client && npm run preview",
+    "db:setup": "powershell -ExecutionPolicy Bypass -File database/setup_db.ps1"
+  },
+  "keywords": [
+    "postgresql",
+    "adbms",
+    "course-registration",
+    "acid-transactions",
+    "react",
+    "express"
+  ],
+  "author": "ADBMS Project Team",
+  "license": "ISC"
+}
+
